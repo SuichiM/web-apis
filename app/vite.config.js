@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   publicDir: "../public",
+  base: "/web-apis/",
   build: {
     rollupOptions: {
       input: {
