@@ -4,23 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>web api examples</title>
   </head>
   <body>
     <div
       id="container"
-      class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8"
+      class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
     >
-      <aside>
-        <ul>
-          <li>
-            <a href="examples/">Examples</a>
-          </li>
-          <li>
-            <a href="intersection-observer/">Intersection Observer</a>
-          </li>
-        </ul>
-      </aside>
+      <h3
+        class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+      >
+        In this site we're going to experiment with diferents web-apis
+      </h3>
+      <ul class="flex flex-col justify-around p-4">
+        <li class="mx-2">
+          <a href="examples/" class="hover:underline">DOM + Fetch API</a>
+        </li>
+        <li class="mx-2">
+          <a href="intersection-observer/" class="hover:underline"
+            >Intersection Observer + lazy loading plugin</a
+          >
+        </li>
+      </ul>
     </div>
 
     <script type="module" src="/main.js"></script>
