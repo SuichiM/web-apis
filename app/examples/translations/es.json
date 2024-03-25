@@ -1,0 +1,9 @@
+{
+  "locale": "es-ES",
+  "currency": "EUR",
+  "header.title": "Nuestra tiendita de paltas...",
+  "header.subtitle": "Ejemplo de las API Fetch+DOM",
+  "header.description": "Este es un ejemplo simple de cómo usar la API Fetch y DOM para obtener datos de una fuente externa y visualizarlas.",
+  "search": "Buscar",
+  "cart": "Carrito"
+}

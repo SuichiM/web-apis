@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="
+            text-base
+            leading-6
+            text-indigo-600
+            font-semibold
+            tracking-wide
+            uppercase
+          "
+        >
+          JS Events
+        </p>
+        <h3
+          class="
+            mt-2
+            text-3xl
+            leading-8
+            font-extrabold
+            tracking-tight
+            text-gray-900
+            sm:text-4xl sm:leading-10
+          "
+        >
+          Tailwind template
+        </h3>
+        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          This is a simple example that uses JS events, and interception observer to create a lazy loading plugin
+        </p>
+        <!-- add a button -->
+        <button id="add-button" class="mt-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded">
+          Add Image
+        </button>
+
+        <!-- add switch with a value for a infitite scroll -->
+        <div class="mt-4">
+          <label for="infinite-scroll" class="text-gray-700">Infinite Scroll</label>
+          <input type="checkbox" id="infinite-scroll" class="ml-2">
+        </div>
+
+        <input type="range" name="canard" min="0" max="1" value="0" step="1"/>
+        
+        <div id="app" class="container"></div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

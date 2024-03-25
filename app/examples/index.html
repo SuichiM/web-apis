@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app" class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="header" class="text-center">
+        <p
+          id="header.subtitle"
+          data-i18n="header.subtitle"
+          class="text-base leading-6 font-semibold text-indigo-600"
+        ></p>
+        <h3
+          id="header.title"
+          data-i18n="header.title"
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight"
+        ></h3>
+        <p
+          id="header.description"
+          data-i18n="header.description"
+          class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto"
+        ></p>
+      </div>
+      <!-- radiobutton with locales -->
+      <div class="absolute top-5 right-5 flex my-auto">
+        <label for="locale" class="mr-2 hidden">Language</label>
+        <select
+          id="locale"
+          class="select select-bordered"
+          onchange="handleChangeLocale(event)"
+        >
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="fr">French</option>
+        </select>
+      </div>
+      <!-- <div id="app" class="mt-5 flex"></div> -->
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
