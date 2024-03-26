@@ -15,7 +15,6 @@ export const fetchRandomFoxyImageUrl = async () => {
 const isInViewPort = (entry) => entry.isIntersecting;
 
 const loadImage = (element, observer) => {
-  console.log("holo");
   const img = element.querySelector("img");
   img.src = img.dataset.src;
   img.alt = img.dataset.alt;

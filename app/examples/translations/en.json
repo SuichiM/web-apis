@@ -1,9 +1,0 @@
-{
-  "locale": "en-US",
-  "currency": "USD",
-  "header.title": "Avocados, store...",
-  "header.subtitle": "Fetch+DOM API Example",
-  "header.description": "This is a simple example of how to use the Fetch API to get data from an external source and show it.",
-  "search": "Search",
-  "cart": "Cart"
-}

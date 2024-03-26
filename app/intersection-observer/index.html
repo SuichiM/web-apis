@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>intersection-observer + lazy loading plugin</title>
+    <title>Intersection Observer + lazy loading plugin</title>
   </head>
   <body>
     <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <p
+          data-i18n="intersection-observer.header.subtitle"
           class="
             text-base
             leading-6
@@ -18,7 +19,6 @@
             uppercase
           "
         >
-          JS Events
         </p>
         <h3
           class="
@@ -33,13 +33,13 @@
         >
           Intersection Observer + lazy loading plugin
         </h3>
-        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
-          This is a simple example that uses JS events, and interception observer to create a lazy loading plugin
+        <p data-i18n="intersection-observer.header.description" class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
         </p>
         <!-- add a button -->
-        <button id="add-button" class="mt-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded">
-          Add Image
-        </button>
+        <button 
+          data-i18n="intersection-observer.add-image-button"
+          id="add-button" 
+          class="mt-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded"></button>
 
         <!-- add switch with a value for a infitite scroll -->
         <!--   

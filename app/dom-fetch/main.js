@@ -3,30 +3,15 @@
  * When you're ready to start on your site, clear the file. Happy hacking!
  **/
 import "../style.css";
-
-import i18next from "i18next";
+import "@translations";
 
 import { API_URL, BASE_URL } from "./constants.js";
 import { fetchData, formatPrice } from "./utils.js";
 import { Card } from "./components/Card.js";
 
-import { initializeTranslations, translate } from "./translations/index.js";
-
 let locale = localStorage.getItem("prefered-locale") || "en";
 
-initializeTranslations(locale);
-
-localStorage.setItem("prefered-locale", locale);
-
 const appNode = document.querySelector("#app");
-
-window.handleChangeLocale = function (event) {
-  locale = event.target.value;
-  localStorage.setItem("prefered-locale", locale);
-  i18next.changeLanguage(locale);
-  // console.log(locale);
-  window.location.reload();
-};
 
 function buildList(data) {
   const items = [];
@@ -45,9 +30,6 @@ function buildList(data) {
   return items;
 }
 
-/* set locale select initial value as the locale  */
-document.querySelector("#locale").value = locale;
-
 fetchData(API_URL).then((responseJson) => {
   const items = buildList(responseJson.data);
 
@@ -57,10 +39,4 @@ fetchData(API_URL).then((responseJson) => {
   container.append(...items);
 
   appNode.append(container);
-});
-
-document.addEventListener("DOMContentLoaded", function (event) {
-  //código a ejecutar cuando existe la certeza de que el DOM está listo para recibir acciones
-  translate();
-  console.log("Happy hacking :)");
 });

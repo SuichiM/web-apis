@@ -1,0 +1,14 @@
+{
+  "locale": "es-ES",
+  "currency": "EUR",
+  "main.header.title": "En este sitio vamos a explorar diferentes web-apis",
+  "main.header.subtitle": "Web APIs",
+  "dom-fetch.header.title": "Nuestra tiendita de paltas...",
+  "dom-fetch.header.subtitle": "Ejemplo de las API Fetch+DOM",
+  "dom-fetch.header.description": "Este es un ejemplo simple de cómo usar la API Fetch y DOM para obtener datos de una fuente externa y visualizarlas.",
+  "intersection-observer.header.subtitle": "Eventos JS",
+  "intersection-observer.header.description": "Este es un ejemplo simple de cómo usar la API Intersection Observer para detectar cuándo un elemento está visible en la ventana del navegador. En este caso hemos creado un plugin para cargar imágenes de forma diferida.",
+  "search": "Buscar",
+  "intersection-observer.add-image-button": "Agregar imagen",
+  "cart": "Carrito"
+}

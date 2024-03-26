@@ -8,12 +8,18 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        examples: resolve(__dirname, "examples/index.html"),
+        "dom-fetch": resolve(__dirname, "dom-fetch/index.html"),
         "intersection-observer": resolve(
           __dirname,
           "intersection-observer/index.html"
         ),
       },
+    },
+  },
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "."),
+      "@translations": resolve(__dirname, "translations"),
     },
   },
 });

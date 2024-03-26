@@ -1,4 +1,5 @@
 import "../style.css";
+import "@translations";
 
 const IMG_ALT = "cute foxxy";
 

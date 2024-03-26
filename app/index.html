@@ -4,24 +4,33 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>web api examples</title>
+    <title>Web API examples</title>
   </head>
   <body>
     <div
-      id="container"
+      id="app"
       class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
     >
+      <p
+        id="main.header.subtitle"
+        data-i18n="main.header.subtitle"
+        class="text-base leading-6 font-semibold text-indigo-600"
+      ></p>
       <h3
+        id="main.header.title"
+        data-i18n="main.header.title"
         class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-      >
-        In this site we're going to experiment with diferents web-apis
-      </h3>
-      <ul class="flex flex-col justify-around p-4">
-        <li class="mx-2">
-          <a href="examples/" class="hover:underline">DOM + Fetch API</a>
+      ></h3>
+      <ul class="flex flex-col items-center p-4 gap-2">
+        <li
+          class="hover:bg-indigo-400 group flex items-center rounded-md bg-indigo-500 text-white text-sm font-medium pl-2 pr-3 py-2 shadow-sm"
+        >
+          <a href="dom-fetch/">DOM + Fetch API</a>
         </li>
-        <li class="mx-2">
-          <a href="intersection-observer/" class="hover:underline"
+        <li
+          class="hover:bg-indigo-400 group flex items-center rounded-md bg-indigo-500 text-white text-sm font-medium pl-2 pr-3 py-2 shadow-sm"
+        >
+          <a href="intersection-observer/"
             >Intersection Observer + lazy loading plugin</a
           >
         </li>

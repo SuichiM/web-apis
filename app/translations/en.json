@@ -1,0 +1,14 @@
+{
+  "locale": "en-US",
+  "currency": "USD",
+  "main.header.title": "In this site we're going to explore diferents web-apis",
+  "main.header.subtitle": "Web APIs",
+  "dom-fetch.header.title": "Avocados, store...",
+  "dom-fetch.header.subtitle": "Fetch+DOM API Example",
+  "dom-fetch.header.description": "This is a simple example of how to use the Fetch API to get data from an external source and show it.",
+  "intersection-observer.header.subtitle": "JS Events",
+  "intersection-observer.header.description": "This is a simple example of how to use the Intersection Observer API to trigger events when an element is in the viewport. In this case we'd created a plugin to lazy loading the images.",
+  "intersection-observer.add-image-button": "Add Image",
+  "search": "Search",
+  "cart": "Cart"
+}
