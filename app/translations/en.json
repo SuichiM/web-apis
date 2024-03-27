@@ -1,6 +1,8 @@
 {
   "locale": "en-US",
   "currency": "USD",
+  "canvas.header.title": "Bouncing Balls",
+  "canvas.header.subtitle": "Canvas API",
   "main.header.title": "In this site we're going to explore diferents web-apis",
   "main.header.subtitle": "Web APIs",
   "dom-fetch.header.title": "Avocados, store...",
