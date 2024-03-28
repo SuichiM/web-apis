@@ -21,6 +21,7 @@ export default defineConfig({
     alias: {
       "@": resolve(__dirname, "."),
       "@translations": resolve(__dirname, "translations"),
+      "@img": resolve(__dirname, "img"),
     },
   },
 });

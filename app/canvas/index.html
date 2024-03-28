@@ -9,7 +9,7 @@
   <body>
     <div
       id="app"
-      class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
+      class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center"
     >
       <p
         id="canvas.header.subtitle"
@@ -20,7 +20,27 @@
         data-i18n="canvas.header.title"
         class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
       ></h3>
-      <canvas></canvas>
+      <canvas
+        id="canvas-example-1"
+        class="border-indigo-600 border rounded-md mt-6"
+      ></canvas>
+
+      <canvas
+        id="canvas-example-2"
+        width="180"
+        height="150"
+        class="border-indigo-600 border rounded-md mt-6"
+      ></canvas>
+
+      <!-- input type where the user can choose a image and that image is loaded in the canva -->
+      <input type="file" id="file" accept="image/*" class="mt-6" />
+
+      <canvas
+        id="canvas-example-3"
+        width="720"
+        height="400"
+        class="border-indigo-600 border rounded-md mt-6"
+      ></canvas>
     </div>
 
     <script type="module" src="main.js"></script>
